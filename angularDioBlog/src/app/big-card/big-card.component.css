@@ -1,0 +1,58 @@
+.card-grande {
+    width: 400px;
+    height: 300px;
+    border: 1px solid #ccc;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .card-grande:hover {
+    transform: scale(1.1);
+  }
+  
+  .card-grande img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .card-grande .conteudo {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .card-grande:hover .conteudo {
+    opacity: 1;
+  }
+  
+  .card-grande h2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .card-grande p {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .card-grande a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  

@@ -1,0 +1,27 @@
+.menu-barra {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .menu-barra ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu-barra ul li {
+    display: inline-block;
+    padding: 10px;
+  }
+  
+  .menu-barra ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .menu-barra ul li a:hover {
+    color: #ccc;
+  }
+  
